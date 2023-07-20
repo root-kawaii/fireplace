@@ -8,9 +8,8 @@ import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
-  output: "server",
+  output: "hybrid",
   site: "https://astro-paper.pages.dev/",
-  output: "server",
   adapter: vercel({
     analytics: true,
   }),
