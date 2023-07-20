@@ -10,7 +10,10 @@ import vercel from "@astrojs/vercel/serverless";
 export default defineConfig({
   output: "server",
   site: "https://astro-paper.pages.dev/",
-  adapter: vercel(),
+  output: "server",
+  adapter: vercel({
+    analytics: true,
+  }),
   integrations: [
     tailwind({
       config: {
