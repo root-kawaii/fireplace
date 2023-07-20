@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-Yoooo what is up my dawg
+Yoooo what is up my dawg\
 Send me whatever you wish to send at reggematteo@gmail.com
 
 ## Features
