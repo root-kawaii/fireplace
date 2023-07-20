@@ -12,7 +12,7 @@ export default defineConfig({
   site: "https://astro-paper.pages.dev/",
   adapter: vercel({
     analytics: true,
-  }), // replace this with your deployed domain
+  }),
   integrations: [
     tailwind({
       config: {
